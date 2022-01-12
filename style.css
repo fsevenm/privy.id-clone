@@ -1,4 +1,44 @@
+/* Reset css */
+* {
+  margin: 0;
+  padding: 0;
+}
+
 /* CSS External */
 body {
   font-family: "Red Hat Display";
+}
+
+/* Top-bar */
+.top-bar {
+  /* black = #000000 = #000 */
+
+  background: black;
+  color: #fff;
+  font-size: 11pt;
+}
+
+.top-bar ul {
+  width: 85%;
+  text-align: right;
+  /* semua-sisi */
+  /* atas/bawah kiri/kanan */
+  /* atas kanan bawah kiri */
+  margin: 0 auto;
+  padding: 8px 0;
+}
+
+.top-bar ul li {
+  display: inline;
+  margin-left: 80px;
+}
+
+.top-bar ul li a {
+  color: white;
+  text-decoration: none;
+}
+
+/* pseudo elements */
+.top-bar ul li a:hover {
+  text-decoration: underline;
 }
