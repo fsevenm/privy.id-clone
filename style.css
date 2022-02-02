@@ -42,3 +42,39 @@ body {
 .top-bar ul li a:hover {
   text-decoration: underline;
 }
+
+/* Menu */
+
+.menu {
+  background: #fff;
+}
+
+.menu .menu-content {
+  width: 85%;
+  height: 100px;
+  line-height: 100px;
+  margin: 0 auto;
+  background: tomato;
+  display: flex;
+}
+
+.menu .menu-content div {
+  background: red;
+}
+
+.menu .menu-content .logo-container {
+  flex-grow: 0.5;
+}
+
+.menu .menu-content ul {
+  background: cyan;
+  flex-grow: 2;
+}
+
+.menu .menu-content ul li {
+  display: inline;
+}
+
+.menu .menu-content .auth-links {
+  flex-grow: 0.5;
+}
